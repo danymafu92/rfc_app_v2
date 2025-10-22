@@ -1,0 +1,7 @@
+"""ASGI entrypoint for the Django application (async servers)."""
+
+import os
+from django.core.asgi import get_asgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'weather_prediction.settings')
+application = get_asgi_application()

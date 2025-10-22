@@ -1,0 +1,57 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #1e40af;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.navbar-links a:hover {
+  opacity: 0.8;
+}
+
+.btn-signout {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.btn-signout:hover {
+  background-color: #b91c1c;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: #f5f5f5;
+}
